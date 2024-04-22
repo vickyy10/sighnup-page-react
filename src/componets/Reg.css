@@ -1,0 +1,60 @@
+
+.MainDiv{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subdiv{
+    height: 400px;
+    width: 340px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(240, 248, 255, 0.068);
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 1px rgb(255, 255, 255);
+  position: absolute;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 15px;
+  
+}
+.namediv{
+    display: flex;
+    justify-content: center;
+  
+    padding-top: 20px;
+
+}
+.inputbox{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: transparent;
+    color: white;
+
+}
+.signbtn{
+    background: rgb(93, 93, 93) !important ;
+    border: 0px !important;
+    width: 30%;
+    font-weight: bolder !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
+}
+.signbtn:hover{
+    background: rgb(0, 0, 0) !important ;
+    box-shadow: 0px 0px 10px 1px white;
+    cursor: pointer;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}

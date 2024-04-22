@@ -1,0 +1,43 @@
+.home-image{
+   
+  size: 100%;
+}
+
+.hom-text{
+  color: white;
+}
+.div1{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div2{
+  width: 400px;
+  height: 300px;
+
+
+  
+}
+
+.welcome{
+  display: flex;
+  justify-content: center;
+    font-size: 75px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-family: cursive;
+}
+.name{
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  font-family: cursive;
+
+}
+.space{
+  width: 10px;
+  height: 20px;
+}
